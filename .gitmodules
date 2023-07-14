@@ -1,0 +1,16 @@
+[submodule "sources/gcc"]
+	path = sources/gcc
+	url = https://gcc.gnu.org/git/gcc.git
+	branch = master
+[submodule "sources/glibc"]
+	path = sources/glibc
+	url = https://github.com/revyos/glibc.git
+	branch = revyos-2.36
+[submodule "sources/binutils"]
+	path = sources/binutils
+	url = https://github.com/revyos/binutils-gdb.git
+	branch = revyos-2.40
+[submodule "sources/revyos-gcc"]
+	path = sources/revyos-gcc
+	url = https://github.com/revyos/gcc.git
+	branch = revyos-gcc10.4-thead-dev
